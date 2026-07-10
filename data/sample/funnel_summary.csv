@@ -1,0 +1,17 @@
+product_family_name,offer_type,revenue_type,orders,revenue,avg_order_value
+Product A,Subscription,Initial,1105,53492.35,48.41
+Product A,Subscription,Recurring,2442,97421.49,39.89
+Product A,One Time Purchase,Initial,874,44784.06,51.24
+Product A,One Time Purchase,Recurring,2564,54604.8,21.3
+Product B,Subscription,Initial,1372,95460.35,69.58
+Product B,Subscription,Recurring,128,3637.11,28.41
+Product B,One Time Purchase,Initial,2698,143647.37,53.24
+Product B,One Time Purchase,Recurring,1015,61239.42,60.33
+Product C,Subscription,Initial,414,15265.85,36.87
+Product C,Subscription,Recurring,807,51341.08,63.62
+Product C,One Time Purchase,Initial,2012,133031.13,66.12
+Product C,One Time Purchase,Recurring,1029,77134.57,74.96
+Product D,Subscription,Initial,412,13930.89,33.81
+Product D,Subscription,Recurring,785,41833.55,53.29
+Product D,One Time Purchase,Initial,208,8789.11,42.26
+Product D,One Time Purchase,Recurring,998,68358.1,68.5

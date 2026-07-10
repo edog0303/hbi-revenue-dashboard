@@ -1,0 +1,21 @@
+# Raw data contains real customer PII - never commit this
+data/raw/
+
+# Processed data is anonymized but is still your employer's business data.
+# Keep this ignored too unless you've gotten explicit sign-off to publish it,
+# or you've swapped in the synthetic sample described in the README.
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+
+# OS
+.DS_Store
