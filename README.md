@@ -14,32 +14,6 @@ Direct-to-consumer subscription businesses live and die by three questions:
 which offers actually convert?* This project builds a repeatable pipeline
 that answers all three from a raw order-export CSV.
 
-## Live demo
-
-This repo ships with a **synthetic sample dataset** (`data/sample/`) so it
-runs immediately for anyone who clones it - no proprietary data required.
-Real company data is processed locally and never committed (see
-[Data privacy](#data-privacy) below).
-
-## Screenshots
-
-*(Add a screenshot of each tab here once you've run the app - drag the PNGs
-into this section on GitHub, or use `![Overview](screenshots/overview.png)`.)*
-
-## Project structure
-hbi-dashboard/
-├── data/
-│   ├── raw/          # your real CSV exports go here (gitignored)
-│   ├── processed/     # cleaned/anonymized + aggregated data (gitignored)
-│   └── sample/        # synthetic demo data (committed to git)
-├── scripts/
-│   ├── clean_data.py          # Step 1: type-fix, anonymize
-│   ├── build_features.py      # Step 2: build the 4 aggregate tables
-│   └── generate_sample_data.py# builds the synthetic demo data
-├── app.py              # the Dash application
-├── requirements.txt
-└── README.md
-
 ## Methodology
 
 1. **Clean & anonymize** (`scripts/clean_data.py`): loads every CSV in
